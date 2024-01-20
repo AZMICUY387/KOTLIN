@@ -47,9 +47,16 @@ fun aaa(alas:Int, tinggi: Int):Double{
     
     return 0.5*alas*tinggi
 }
+
+fun bbb(p:Int, l: Int, t: Int):Int{
+    
+    return p*l*t
+}
+
 fun main() {
     val a = aaa(128, 8)
     println(a)
     
-   
+    val b = bbb(2, 2, 2)
+    println(b)
 }
