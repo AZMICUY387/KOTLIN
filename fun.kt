@@ -10,3 +10,34 @@ fun main() {
     val bayu = lulus("bayu", 1, 1,1,1,"Tidak LULUS")
     println(bayu)
 }
+/////////////////////////
+
+fun jumlah(nilaia: Int, nilaib: Int):Int
+{
+    return nilaia + nilaib
+}
+fun kurang(nilaia: Int, nilaib: Int):Int
+{
+    return nilaia - nilaib
+}
+fun kali(nilaia: Int, nilaib: Int):Int
+{
+    return nilaia * nilaib
+}
+fun bagi(nilaia: Int, nilaib: Int):Int
+{
+    return nilaia / nilaib
+}
+fun main() {
+    val a = jumlah(8, 8)
+    println(a)
+    
+    val b = kurang(8, 8)
+    println(b)
+    
+    val c = kali(8, 4)
+    println(c)
+    
+    val d = bagi(8, 4)
+    println(d)
+}
