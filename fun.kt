@@ -41,3 +41,15 @@ fun main() {
     val d = bagi(8, 4)
     println(d)
 }
+
+////////////
+fun aaa(alas:Int, tinggi: Int):Double{
+    
+    return 0.5*alas*tinggi
+}
+fun main() {
+    val a = aaa(128, 8)
+    println(a)
+    
+   
+}
