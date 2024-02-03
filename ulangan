@@ -1,0 +1,29 @@
+// TEUKU AZMI FAYYADH 
+// KELOMPOK B  
+
+fun lbalok(panjang:Int, lebar:Int, tinggi:Int):Int{
+    return 2*(panjang*lebar+lebar*tinggi+panjang*tinggi);
+}
+
+fun kpersegi(sisi:Int):Int{
+    return sisi*sisi*sisi*sisi
+}
+
+fun ksegitiga(sisi:Int):Int{
+    return sisi*sisi*sisi
+}
+fun llingkaran(jari:Int):Double{
+    return 3.14*jari*jari
+}
+
+
+fun main(){
+    val nama = "Teuku Azmi Fayyadh "
+    val lb = lbalok(2,3,4)
+    val ll = llingkaran(10)
+    val kp = kpersegi(5)
+    val ks = ksegitiga(5)
+    
+    println("Selamat Ujian, "+nama+"\nLuas Balok "+lb+" cm\nLuas lingkaran "+ll+" cm\nkeliling persegi "+kp+" cm\nkeliling segitiga "+ks+" cm")
+    
+}
