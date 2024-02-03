@@ -6,7 +6,7 @@ fun lbalok(panjang:Int, lebar:Int, tinggi:Int):Int{
 }
 
 fun kpersegi(sisi:Int):Int{
-    return sisi*sisi*sisi*sisi
+    return 4*sisi
 }
 
 fun ksegitiga(sisi:Int):Int{
